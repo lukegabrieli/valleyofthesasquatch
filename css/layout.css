@@ -1,90 +1,139 @@
-@charset "UTF-8";
+/*----- HEADER -----*/
 
-html { 
-  background: url("http://votivfiles.com/Sasquatch/Assets/sasquatch_bg_1.jpg") no-repeat center bottom fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-img.logo {
+.logo {
   width: 950px;
   display: block;
-  margin: auto;
+  margin: 0 auto;
   margin-top:25px;
   max-width: 100%;
-    height: auto;
-    width: auto\9;
 }
 
-ul.top_menu {
-  width: 1000px;
-  margin-left:auto;
-  margin-right:auto;
-  list-style-type:none;
-  text-align:center;
-  padding-bottom: 5px;
-  max-width: 100%;
-    height: auto;
-    width: auto\9;
+nav {
+  padding: 15px 0 30px 0;
 }
 
-li.nav {
+nav li {
   display: inline;
-  margin-right: 40px;
-  color:#ffffff;
-  opacity:.5;
-  font-family: Verdana, sans-serif;
-  letter-spacing: .4em;
-  font-size:14px;
-  padding-top: 5px;
+  margin: 0 15px 0 15px;
 }
 
-a.nav {
-  text-decoration:none;
-  font-family: Verdana, sans-serif;
-  color:#ffffff;
-  letter-spacing: .3em;
-  font-size:14px;
-  font-weight:900;
+/*----- HOME -----*/
+
+.synopsis {
+  height:600px;
+  width: 900px;
+  margin: 0 auto 100px auto;
+  max-width: 100%;
 }
 
-a.nav:hover {
-  color: #797979;
+.synopsis_poster {
+  height: 550px;
+  float: left;
+  margin-right: 30px;
 }
 
-.linktable {
-  width: 300px;
-  left:50%;
-  margin-left:-150px;
-  position:fixed;
-  bottom:0;
-  z-index:2;
-}
-
-img.bottom_logo {
-  width: 25px;
-  opacity: .7;
-}
-
-a.socials:hover {
-  opacity: .5;
-}
+/*----- TRAILER -----*/
 
 iframe {
-  margin-left:auto;
-  margin-right:auto;
-  max-width: 100%;
-    height: auto;
-    width: auto\9;
+  height: 450px;
+  width: 800px;
+  display: block;
+  margin: 0 auto 100px auto;
 }
 
-#footer {
-  width:100%;
-  height:40px;
+/*----- CAST & CREW -----*/
+
+.cast_crew_h1 {
+  margin: 10px 0 40px 0;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 175px;
+}
+
+.cast {
+  width: 900px;
+  margin: 0 auto 40px auto;
+}
+
+.cast_box {
+  display: inline-block;
+}
+
+.crew {
+  width:700px;
+  max-width:100%;
+  margin: 0 auto 100px auto;
+  padding: 30px 0;
+}
+
+/*----- SCREENINGS -----*/
+
+.screenings {
+  width:800px;
+  max-width:100%;
+  margin: 0 auto 100px auto;
+  padding: 0 10px;
+}
+
+.screening_festival {
+  margin-bottom: 60px;
+}
+
+.showtimes {
+  margin: 30px 0 5px 0;
+}
+
+.laurel {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.laurel_previous {
+  width:300px;
+  margin: 15px 20px;
+}
+
+/*----- AWARDS -----*/
+
+.awards {
+  width:800px;
+  max-width:100%;
+  margin: 0 auto 100px auto;
+  padding: 50px 0;
+}
+
+.winner {
+  display: inline-block;
+  width:300px;
+  margin: 0 25px;
+}
+
+.winner_laurel {
+  width:300px;
+}
+
+/*----- FOOTER -----*/
+
+footer {
   position:fixed;
   bottom:0;
-  background:rgba(0,0,0,1);
-  z-index:1;
+  width:100%;
+  height:40px;
+}
+
+footer ul {
+  margin-top: 5px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.social_logo {
+  width: 25px;
 }
