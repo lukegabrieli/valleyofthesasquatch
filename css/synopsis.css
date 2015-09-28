@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+table.synopsiscontent {
+	height:600px;
+	width: 900px;
+	display: block;
+	margin: auto;
+	max-width: 100%;
+    height: auto;
+    width: auto\9;
+	margin-bottom:100px;
+}
+
+#synopsistext {
+	background-color:rgba(0,0,0,.5);
+	padding-left:40px;
+	font-family: Verdana, sans-serif;
+	color:#ffffff;
+	letter-spacing: .3em;
+	opacity:.9;
+	font-size:19px;
+	font-weight:600;
+	line-height:165%;
+}
+
+#poster {
+	height: 550px;
+}

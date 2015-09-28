@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+p {
+  max-width: 100%;
+    height: auto;
+    width: auto\9;
+  width:800px;
+  margin-bottom:40px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  font-family: Verdana, sans-serif;
+  color:#ffffff;
+  letter-spacing: .3em;
+  opacity:.9;
+  font-size:18px;
+  font-weight:600;
+  line-height:150%;
+}
+
+p.bio {
+  font-weight:500;
+}
+
+#screeningtext {
+  text-align: center;
+  width:800px;
+  height: 100%;
+  max-width:100%;
+  margin-right:auto;
+  margin-left:auto;
+  background:rgba(0,0,0,.5);
+  margin-bottom:100px;
+}
+
+#winner {
+  display: inline-block;
+  width:300px;
+  margin-right:30px;
+  margin-left:30px;
+  margin-top: 50px;
+  opacity:.9;
+}
+
+#winnerImage {
+  width:300px;
+  opacity:.9;
+}
+
+a#link {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  width:800px;
+  margin-bottom:40px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  font-family: Verdana, sans-serif;
+  color:#ffffff;
+  letter-spacing: .3em;
+  opacity:.9;
+  font-size:18px;
+  font-weight:600;
+  line-height:150%;
+  text-decoration:none;
+}
+
+a#link:hover {
+  opacity:.5;
+}
+
+#previous {
+  text-decoration: underline;
+}
