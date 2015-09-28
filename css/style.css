@@ -1,0 +1,144 @@
+/*----- HEADER -----*/
+
+nav {
+  text-align:center;
+  opacity:.5;
+  letter-spacing: .4em;
+}
+
+.nav_item {
+  text-decoration:none;
+  color:#ffffff;
+  letter-spacing: .3em;
+  font-size:14px;
+  font-weight:900;
+}
+
+.nav_item:hover {
+  color: #797979;
+}
+
+/*----- HOME -----*/
+
+.synopsis {
+  background-color:rgba(0,0,0,.5);
+}
+
+.synopsis_text {
+  letter-spacing: .3em;
+  opacity:.9;
+  font-size:19px;
+  font-weight:600;
+  line-height:165%;
+}
+
+/*----- CAST & CREW -----*/
+
+.cast_crew_h1 {
+  text-align:center;
+  letter-spacing:.3em;
+  opacity:.9;
+  font-size:18px;
+  font-weight:600;
+}
+
+.cast_name {
+  text-decoration:none;
+  text-align: center;
+  color:#ffffff;
+  letter-spacing: .3em;
+  opacity:.9;
+  font-size:16px;
+  font-weight:700;
+  line-height:150%;
+}
+
+.cast_name:hover {
+  opacity: .5;
+}
+
+.crew {
+  background:rgba(0,0,0,.7);
+  text-align: center;
+}
+
+.crew p {
+  text-decoration:none;
+  letter-spacing: .3em;
+  opacity:.9;
+  font-size:16px;
+  font-weight:500;
+  line-height: 2;
+}
+
+.crew_link {
+  text-decoration:none;
+  text-align:center;
+  color:#ffffff;
+  letter-spacing: .3em;
+  opacity:.9;
+  font-size:16px;
+  font-weight:600;
+}
+
+.crew_link:hover {
+  opacity:.5;
+}
+
+/*----- SCREENINGS -----*/
+
+.screenings {
+  text-align: center;
+  background:rgba(0,0,0,.5);
+}
+
+.laurel, .laurel_previous {
+  opacity:.9;
+}
+
+.showtime_link {
+  color:#ffffff;
+  letter-spacing: .3em;
+  opacity:.9;
+  font-size:18px;
+  font-weight:600;
+  line-height:150%;
+  text-decoration:none;
+}
+
+.showtime_link:hover {
+  opacity:.5;
+}
+
+.previous_festivals {
+  text-decoration: underline;
+}
+
+/*----- AWARDS -----*/
+
+.awards {
+  text-align: center;
+  background:rgba(0,0,0,.5);
+}
+
+.winner_laurel {
+  opacity:.8;
+}
+
+/*----- FOOTER -----*/
+
+footer {
+  background:rgba(0,0,0,1);
+}
+
+footer ul {
+  text-align: center;
+}
+
+.social_logo {
+  opacity: .7;
+}
+
+.social_link:hover {
+  opacity: .5;
+}
